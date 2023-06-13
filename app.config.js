@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 //TODO: check if this import is needed, since secrets are in eas, it might not be the case
 import "dotenv/config";
 

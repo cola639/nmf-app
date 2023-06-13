@@ -25,6 +25,7 @@ const RootNavigator = (): React.ReactElement => {
       {hasAcceptedTermsOfUseVersion ? (
         <Stack.Screen name="BottomTab" component={BottomTabNavigator} options={screenOptions} />
       ) : (
+        // agreement
         <Stack.Screen name="Intro" component={IntroScreen} options={screenOptions} />
       )}
     </Stack.Navigator>

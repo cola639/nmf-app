@@ -47,6 +47,7 @@ const TopTabBar = ({ state, navigation }) => {
         };
 
         return (
+          // Act-Home/Digital
           <TouchableOpacity
             style={[
               styles.tabView,

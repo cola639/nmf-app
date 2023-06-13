@@ -8,6 +8,7 @@ const Stack = createStackNavigator();
 
 const ActNavigator = (): React.ReactElement => (
   <Stack.Navigator>
+    {/* Home Digital */}
     <Stack.Screen
       name="ActTabNavigator"
       options={ActTabNavigator.navigationOptions}

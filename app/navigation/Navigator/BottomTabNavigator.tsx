@@ -12,6 +12,7 @@ import EmissionsNavigator from "./BottomTab/EmissionsNavigator";
 import SettingsNavigator from "./BottomTab/SettingsNavigator";
 import AddEmissionNavigator from "./BottomTab/AddEmissionNavigator";
 
+// 底部导航栏
 const BottomTab = createBottomTabNavigator();
 
 const BudgetOptions = {
