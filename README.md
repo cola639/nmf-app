@@ -1,3 +1,33 @@
+### 📦 Getting started
+
+Installing Dependencies:
+
+```bash
+$ yarn install
+```
+
+Running the app:
+
+```bash
+$ yarn start
+$ iPhone安装Expo Go 使用相机扫描VsCode命令行二维码热加载开发
+```
+
+For starting the app on a specific OS:
+
+```bash
+$ yarn ios | yarn android
+```
+
+Copy the 2 files that contain secrets and replace them with yours
+
+```bash
+$ cp app.example.json app.json
+$ cp secret.example.ts secret.ts
+```
+
+<br />
+
 <h1 align="center">🌱 NMF.earth app</h1>
 <h3 align="center">Understand and reduce your carbon footprint</h3>
 
@@ -38,35 +68,6 @@ Design can be found on [Figma](https://www.figma.com/community/file/967052407514
 ### 📊 Data source
 
 Carbon data comes from NMF's [carbon footprint repo](https://github.com/NMF-earth/carbon-footprint) while barcode product scanned data comes from [Open Food Facts](https://world.openfoodfacts.org/) api.
-
-<br />
-
-### 📦 Getting started
-
-Installing Dependencies:
-
-```bash
-$ yarn
-```
-
-Running the app:
-
-```bash
-$ yarn start
-```
-
-For starting the app on a specific OS:
-
-```bash
-$ yarn ios | yarn android
-```
-
-Copy the 2 files that contain secrets and replace them with yours
-
-```bash
-$ cp app.example.json app.json
-$ cp secret.example.ts secret.ts
-```
 
 <br />
 
