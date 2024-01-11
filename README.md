@@ -2,6 +2,11 @@
 
 Installing Dependencies:
 
+```
+$ yarn config set proxy http://127.0.0.1:10809
+$ yarn config set https-proxy http://127.0.0.1:10809
+```
+
 ```bash
 $ yarn install
 ```
